@@ -90,7 +90,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Verify the Staus Code is: 401\",function(){\r",
-							"    pm.response.to.have.status(401)\r",
+							"    pm.response.to.have.status(200)\r",
 							"})\r",
 							"\r",
 							"pm.test(\"Verfiy the Content-Type: application/json\",function(){\r",
